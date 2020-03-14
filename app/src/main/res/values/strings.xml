@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">SimpleApp</string>
+    <string-array name="my_apps">
+        <item>Beautiful Ui</item>
+        <item>Image Pickup</item>
+        <item>Custom ListView</item>
+        <item>Web View</item>
+        <item>SH And KBH</item>
+        <item>Android Camera</item>
+        <item>Mp3 Player</item>
+        <item>Mp4 Player</item>
+        <item>Thread And Timer</item>
+        <item>AsyncTaskHttp App</item>
+        <item>DoAsync With Anko</item>
+        <item>Date Picker Calendar</item>
+        <item>Portrait And LandScape</item>
+        <item>Sliding Tab View</item>
+        <item>Accelerometer App</item>
+        <item>Expandable ListView App</item>
+        <item>Alert Dialog</item>
+        <item>Tab Layout View</item>
+        <item>Localization App</item>
+        <item>Multiple Choice ListView</item>
+        <item>RecyclerView And CardView</item>
+        <item>Searchable Recycler View App</item>
+        <item>Google Map Integration</item>
+        <item>Edit Text Password Show Hide</item>
+        <item>My Animation</item>
+        <item>Navigation Drawer App</item>
+        <item>Button Navigation View App</item>
+        <item>Scanner App</item>
+        <item>Button with CheckBox</item>
+        <item>Retrofit Blogging App</item>
+        <item>Chatting Bolt App</item>
+        <item>Multiple Layout App</item>
+        <item>Publishing And Signing</item>
+    </string-array>
+</resources>
