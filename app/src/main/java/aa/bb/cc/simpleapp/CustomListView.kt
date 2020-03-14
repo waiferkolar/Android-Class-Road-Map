@@ -1,8 +1,10 @@
 package aa.bb.cc.simpleapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_custom_list_view.*
 
 class CustomListView : AppCompatActivity() {
@@ -15,5 +17,13 @@ class CustomListView : AppCompatActivity() {
 
         val adapter = ArrayAdapter<String>(this@CustomListView,android.R.layout.simple_list_item_1,strAry)
         appList.adapter = adapter
+
+        appList.setOnItemClickListener { adapterView, view, i, l ->
+            var str = adapterView.getItemAtPosition(i).toString()
+            str = str.replace(" ","")
+            val cls = Class.forName("aa.bb.cc.simpleapp.$str")
+            val intent = Intent(this@CustomListView,cls)
+            startActivity(intent)
+        }
     }
 }
