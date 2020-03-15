@@ -6,6 +6,7 @@
     <string name="login">Login</string>
     <string name="default_name">Jhon Doe</string>
     <string name="default_password">123123</string>
+    <string name="text_ten">10</string>
     <string-array name="my_apps">
         <item>Beautiful Ui</item>
         <item>Image Pickup</item>

@@ -22,8 +22,8 @@ class SHAndKBH : AppCompatActivity() {
         setContentView(R.layout.activity_shand_kbh)
 
         /*
-        etUseranme.setOnFocusChangeListener { view, b -> hideKB() }
-        etPassword.setOnFocusChangeListener { view, b -> hideKB() }
+            etUsername.setOnFocusChangeListener { view, b -> hideKB() }
+            etPassword.setOnFocusChangeListener { view, b -> hideKB() }
          */
 
         etUseranme.showSoftInputOnFocus = false
