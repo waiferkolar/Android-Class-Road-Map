@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">SimpleApp</string>
+    <string name="login_user">Login User</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="default_name">Jhon Doe</string>
+    <string name="default_password">123123</string>
     <string-array name="my_apps">
         <item>Beautiful Ui</item>
         <item>Image Pickup</item>

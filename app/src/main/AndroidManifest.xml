@@ -3,6 +3,7 @@
     package="aa.bb.cc.simpleapp">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:fullBackupContent="true"
@@ -11,6 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".BeautifulUi"></activity>
+        <activity android:name=".SHAndKBH" />
         <activity android:name=".ImagePickup" />
         <activity android:name=".CustomListView" />
         <activity android:name=".MainActivity">
